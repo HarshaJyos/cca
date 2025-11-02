@@ -9,8 +9,7 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleDebug",
-        "abiSplits": false
+        "gradleCommand": ":app:assembleDebug"
       }
     },
     "preview": {
