@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yourcompany.creditcardadvisor"
@@ -41,8 +43,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "your-project-id-here"
+        "projectId": "8f25ff50-64e7-47cc-a8d7-ffdb7152282b"
       }
-    }
+    },
+    "owner": "hanishjs"
   }
 }
