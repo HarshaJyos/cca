@@ -1,10 +1,5 @@
-import {
-  signInAnonymously,
-  onAuthStateChanged,
-  User,
-  signOut,
-} from "firebase/auth";
-import { auth } from "../config/firebase";
+import { signInAnonymously, onAuthStateChanged, User, signOut } from "firebase/auth";
+import { auth } from "../config/firebase";   // <-- already initialized with modular API
 import * as SecureStore from "expo-secure-store";
 
 class FirebaseAuthService {
